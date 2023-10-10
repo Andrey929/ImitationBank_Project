@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e15e647-0d14-47d3-9a34-6faa1efbbe13" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Sourse/Bank/Bank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Sourse/Bank/BankAuthorization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Sourse/Bank/BankOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Sourse/Bank/Transaction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Sourse/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="7e15e647-0d14-47d3-9a34-6faa1efbbe13" name="Changes" comment="Add Source" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,6 +43,11 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "module"
+    ]
   }
 }]]></component>
   <component name="RunManager">
@@ -87,11 +78,43 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1696936833988</updated>
-      <workItem from="1696936835720" duration="7413000" />
+      <workItem from="1696936835720" duration="7777000" />
     </task>
+    <task id="LOCAL-00001" summary="Add Source">
+      <option name="closed" value="true" />
+      <created>1696959407273</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1696959407273</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add Source">
+      <option name="closed" value="true" />
+      <created>1696959644479</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1696959644479</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add Source" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Source" />
   </component>
 </project>
