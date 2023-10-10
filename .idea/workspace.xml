@@ -20,6 +20,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Andrey929"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="ada65a5e-8000-4f2d-a2b9-b0e7b5b0bb99" />
+        <option name="url" value="https://github.com/Andrey929/YLAB_Project.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 0
 }]]></component>
@@ -78,7 +92,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1696936833988</updated>
-      <workItem from="1696936835720" duration="7777000" />
+      <workItem from="1696936835720" duration="7998000" />
     </task>
     <task id="LOCAL-00001" summary="Add Source">
       <option name="closed" value="true" />
@@ -96,7 +110,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696959644479</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add Source">
+      <option name="closed" value="true" />
+      <created>1696959896448</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1696959896448</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
