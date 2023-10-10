@@ -6,9 +6,12 @@ public class BankAuthorization extends Bank{
     public boolean registrationUser(String log,String password){
         User user = new User(log,password);
         if (!users.containsKey(user.getLogin())) {
-            users.put(user.getLogin(), user);
-            System.out.println("Успешно !!!");
-            return true;
+            if (log != null) {
+                users.put(user.getLogin(), user);
+                System.out.println("Успешно !!!");
+                return true;
+            }else return false;
+
         }else {
             System.out.println("Данный логин уже существует.(");
             return false;
