@@ -10,10 +10,16 @@ public class WorkProgramme extends UserActions{
             if (!userActions.authorizationAction()){
                 break;
             }
-            userActions.basicActions();
+            int tmp;
+            do {
+                System.out.println("Продолжить действие ? Да(1) / Нет(2)");
+                tmp = scanner.nextInt();
+                userActions.basicActions();
+            }while (tmp != 2);
+
             System.out.println("Вы хотите закончить ? Да(1) / Нет(2)");
-            int tmp = scanner.nextInt();
-            if (tmp == 1) {
+            int tmpB = scanner.nextInt();
+            if (tmpB == 1) {
                 break;
             }
         }
