@@ -5,8 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e15e647-0d14-47d3-9a34-6faa1efbbe13" name="Changes" comment="Add Test">
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hibernate.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Data/DbConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Data/WorkWithData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Front/WorkProgramme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Front/WorkProgramme.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Front/UserActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Front/UserActions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sourse/Bank/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Sourse/Bank/Bank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sourse/Bank/BankAuthorization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Sourse/Bank/BankAuthorization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sourse/Bank/BankOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Sourse/Bank/BankOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sourse/Bank/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Sourse/Bank/BankTransaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sourse/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Sourse/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BankAuthorizationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BankAuthorizationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,25 +61,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "JUnit.BankOperationTest.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Study/Java/ImitationBank_Project/src/main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.3862069",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.uml",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
-      &quot;module&quot;
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "module"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
@@ -112,11 +134,18 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.BankOperationTest" />
         <item itemvalue="JUnit.BankAuthorizationTest" />
         <item itemvalue="JUnit.BankAuthorizationTest.enterUser" />
-        <item itemvalue="JUnit.BankOperationTest" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-19.0.2-corretto-19.0.2-4caba194b151-48ba4555" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -128,6 +157,10 @@
       <updated>1696936833988</updated>
       <workItem from="1696936835720" duration="7998000" />
       <workItem from="1696970937632" duration="9396000" />
+      <workItem from="1710881345188" duration="581000" />
+      <workItem from="1711202273734" duration="598000" />
+      <workItem from="1714491807167" duration="132000" />
+      <workItem from="1714491995935" duration="975000" />
     </task>
     <task id="LOCAL-00001" summary="Add Source">
       <option name="closed" value="true" />
@@ -199,5 +232,9 @@
     <MESSAGE value="Add Front" />
     <MESSAGE value="Add Test" />
     <option name="LAST_COMMIT_MESSAGE" value="Add Test" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

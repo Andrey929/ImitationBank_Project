@@ -1,6 +1,11 @@
 package Sourse.Bank;
 
+import Data.DbConnection;
+import Data.WorkWithData;
 import Sourse.*;
+import org.hibernate.Session;
+import org.hibernate.Transaction;
+
 
 public class BankAuthorization extends Bank{
     public boolean registrationUser(String log,String password){
@@ -8,6 +13,7 @@ public class BankAuthorization extends Bank{
         if (!users.containsKey(user.getLogin())) {
             if (log != null) {
                 users.put(user.getLogin(), user);
+                WorkWithData.saveUser(user);
                 System.out.println("Успешно !!!");
                 return true;
             }else return false;
@@ -17,18 +23,21 @@ public class BankAuthorization extends Bank{
             return false;
         }
     }
-    public boolean enterUser(String log,String password){
 
-        if (users.containsKey(log)) {
-            if (password.equals(users.get(log).getPassword())) {
+
+
+    public boolean enterUser(String log,String password) {
+        User user = WorkWithData.findUser(log);
+        if (user != null) {
+            System.out.println(user.getPassword());
+            if (user.getPassword().equals(password)) {
                 System.out.println("Успешно !!!");
                 return true;
-            }else {
+            } else {
                 System.out.println("Пороль неверен");
                 return false;
             }
-
-        }else {
+            }else {
             System.out.println("Данный логин не найден");
             return false;
         }

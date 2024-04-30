@@ -7,7 +7,6 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class BankAuthorizationTest {
     BankAuthorization bankAuthorization = new BankAuthorization();
-
     @ParameterizedTest
     @CsvSource({"Andreyka,2222",
             "stp,65"})

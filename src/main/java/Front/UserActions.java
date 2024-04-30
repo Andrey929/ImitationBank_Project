@@ -1,4 +1,5 @@
 package Front;
+import Data.WorkWithData;
 import Sourse.*;
 import Sourse.Bank.Bank;
 import Sourse.Bank.BankAuthorization;
@@ -21,7 +22,7 @@ public class UserActions {
             System.out.print("Введите пароль : ");
             String password = scanner.nextLine();
             if (bankAuthorization.enterUser(login,password)){
-                user = Bank.getUser(login);
+                user = WorkWithData.findUser(login);
                 return true;
             }else return false;
         }else if (tmp == 2) {
